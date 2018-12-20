@@ -1,5 +1,5 @@
 apt-get update && apt-get upgrade -y
-apt-get install php7.0 apache2 libapache2-mod-php7.0 php7.0-common libmailtools-perl rrdtool librrds-perl nfdump nfdump-flow-tools perl6 -y
+apt-get install php7.0 apache2 libapache2-mod-php7.0 php7.0-common libmailtools-perl rrdtool librrds-perl libsocket6-perl nfdump nfdump-flow-tools perl6 -y
 cd /usr/local/src/
 wget --no-check-certificate https://downloads.sourceforge.net/project/nfsen/stable/nfsen-1.3.8/nfsen-1.3.8.tar.gz
 tar -xf nfsen-1.3.8.tar.gz
